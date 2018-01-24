@@ -11,6 +11,8 @@ collaboration.
 Based on [Alpine Linux][131] from my [alpine-php][132] image with [NGINX][135],
 [PHP7][136] and the [s6][133] init system [overlayed][134] in it.
 
+**Auto updated according to the [Github][138] tags.**
+
 Updated with latest php7 packages and proxied out through NGINX,
 which can be also used to serve the static files.
 
@@ -40,6 +42,8 @@ docker pull woahbase/alpine-pydio:x86_64
 
 * Pydio is located at the endpoint `/pydio/`, with configurations
   at `/config/pydio/` and data at `/data`.
+
+* Pydio source is located at `/opt/pydio/pydio.zip`.
 
 * These configurations are inherited from the nginx image:
 
@@ -239,6 +243,7 @@ Maintained by [WOAHBase][204].
 [135]: https://nginx.org
 [136]: http://php.net/
 [137]: https://pydio.com/
+[138]: https://github.com/pydio/pydio-core/releases
 
 [201]: https://github.com/woahbase
 [202]: https://travis-ci.org/woahbase/
