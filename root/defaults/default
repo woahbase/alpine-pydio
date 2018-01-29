@@ -1,6 +1,6 @@
 server {
 	listen 80;
-	root /config/www/pydio;
+	root /config/www;
 	index index.php;
 
 	keepalive_requests	  10;
@@ -78,7 +78,7 @@ server {
 
 server {
 	listen 443 ssl;
-	root /config/www/pydio;
+	root /config/www;
 	index index.php;
 
 	keepalive_requests	  10;
